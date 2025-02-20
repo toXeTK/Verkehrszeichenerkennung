@@ -1,0 +1,23 @@
+############ SPECS ############
+
+IMG Resolution: [64, 56]
+Neurons per Layer: [128, 32, 16, 13]
+Batch Size: 4
+Epochs: 200
+
+
+########### HISTORY ###########
+
+<keras.src.callbacks.history.History object at 0x7fff2ce40190>
+
+###############################
+
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step - accuracy: 0.7027 - loss: 0.0300
+Test score: 0.02813216671347618
+Test accuracy: 0.7321428656578064
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 121ms/step
+Percentages per class:
+
+[{'Achtung': '0.00%', 'Achtzig': '0.00%', 'Baustelle': '0.46%', 'Dreisig': '0.00%', 'DurchfahrtVerboten': '0.00%', 'Fuenfzig': '99.75%', 'Hundert': '0.00%', 'Hundertdreisig': '0.00%', 'Sechzig': '0.00%', 'Siebzig': '0.00%', 'Stop': '0.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '0.00%'}]
+
+Schild: Fuenfzig erkannt

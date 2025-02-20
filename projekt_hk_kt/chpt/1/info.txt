@@ -1,0 +1,23 @@
+############ SPECS ############
+
+IMG Resolution: [64, 56]
+Neurons per Layer: [256, 32, 16, 13]
+Batch Size: 4
+Epochs: 200
+
+
+########### HISTORY ###########
+
+<keras.src.callbacks.history.History object at 0x7ffeb9bd6fd0>
+
+###############################
+
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.8877 - loss: 0.0172
+Test score: 0.01667247712612152
+Test accuracy: 0.8779761791229248
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 119ms/step
+Percentages per class:
+
+[{'Achtung': '0.00%', 'Achtzig': '1.04%', 'Baustelle': '0.00%', 'Dreisig': '0.01%', 'DurchfahrtVerboten': '1.71%', 'Fuenfzig': '0.06%', 'Hundert': '0.02%', 'Hundertdreisig': '0.51%', 'Sechzig': '11.21%', 'Siebzig': '0.00%', 'Stop': '0.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '0.00%'}]
+
+Schild: Sechzig erkannt

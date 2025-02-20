@@ -1,0 +1,23 @@
+############ SPECS ############
+
+IMG Resolution: [128, 112]
+Neurons per Layer: [64, 32, 16, 13]
+Batch Size: 4
+Epochs: 200
+
+
+########### HISTORY ###########
+
+<keras.src.callbacks.history.History object at 0x7fff2cebfcd0>
+
+###############################
+
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.8136 - loss: 0.0227
+Test score: 0.021900713443756104
+Test accuracy: 0.8214285969734192
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step
+Percentages per class:
+
+[{'Achtung': '0.00%', 'Achtzig': '21.36%', 'Baustelle': '0.00%', 'Dreisig': '0.00%', 'DurchfahrtVerboten': '0.00%', 'Fuenfzig': '0.00%', 'Hundert': '0.98%', 'Hundertdreisig': '0.00%', 'Sechzig': '1.82%', 'Siebzig': '0.00%', 'Stop': '0.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '0.00%'}]
+
+Schild: Achtzig erkannt
