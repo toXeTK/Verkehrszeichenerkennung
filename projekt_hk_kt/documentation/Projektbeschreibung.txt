@@ -1,0 +1,27 @@
+Projekt Verkehrszeichenerkennung
+
+Ziel des Projekts ist es mittels maschine learning ein Programm zu entwickeln welches in der Lage ist
+europäische Verkehrszeichen zu erkennen und zu klassifizieren.
+
+Die Trainingsdaten wurden von GitHub importiert. 
+In der ersten Phase des Projekts wird sich auf 4 Schilder beschränkt.
+Die Anzahl der Bilder variiert je Klasse
+Vorfahrt gewähren: 254 Bilder
+Vorfahrt achten: 256 Bilder
+50km/h: 103 Bilder
+Achtung: 120 Bilder
+
+Um den Code extra zu Testen wird am Ende jeden Trainingsprozesses mithilfe eines Bildes, welches nicht in den eigentlichen
+Trainings und Testdaten vorhanden ist, ein Test vollzogen.
+
+Als Ground truth dienen die Ordner in denen sich die Bilder befinden.
+Hierdurch ist ein einfaches einfügen neuer Trainingsdaten möglich.
+
+Die fertig Trainierten Modelle sowie Grafiken zu Loss und Accuracy werden unter chpt abgelegt.
+Hier wird ebenso eine Textdatei mit Informationen wie Batchsize, Epochen und Ergebnisse des Test gespeichert.
+
+
+Fo
+Im laufe des Projekts soll das Netzwerk immer weiter optimiert werden.
+Im Ersten Schritt sollen weitere Klassen hinzugefügt werden.
+Anschließend wird das anfängliche FFN zu einem CNN geändert und ein Inferenzprogramm geschrieben.

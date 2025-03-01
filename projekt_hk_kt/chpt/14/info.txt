@@ -1,0 +1,24 @@
+############ SPECS ############
+
+IMG Resolution: [64, 56]
+Neurons per Layer: [32, 32, 16, 4]
+Batch Size: 4
+Epochs: 120
+
+
+########### HISTORY ###########
+
+Test score: 0.009483453817665577
+Test accuracy: 0.9863013625144958
+
+
+########### TESTING ###########
+
+Test1: Vorfahrt, Test2: VorfahrtGewaehren, Test3: Fuenfzig, Test4: Achtung
+
+[{'Achtung': '0.83%', 'Fuenfzig': '6.89%', 'Vorfahrt': '81.34%', 'VofahrtGewaehren': '12.06%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '0.01%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '100.00%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '100.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '0.00%'}]
+[{'Achtung': '99.05%', 'Fuenfzig': '0.01%', 'Vorfahrt': '0.01%', 'VofahrtGewaehren': '0.04%'}]
+
+###############################
