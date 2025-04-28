@@ -1,0 +1,32 @@
+############ SPECS ############
+
+IMG Resolution: [64, 56]
+Neurons per Layer: [128, 6]
+Batch Size: 16
+Epochs: 60
+
+
+########### HISTORY ###########
+
+Test score: 0.004127516411244869
+Test accuracy: 0.9994964599609375
+
+
+########### TESTING ###########
+
+Test1: Achtung, Test2: Fuenfzig, Test3: Hundert, Test4: Stop, Test5: Vorfahrt, Test6: VorfahrtGewaehren
+
+[{'Achtung': '3.31%', 'Fuenfzig': '0.07%', 'Hundert': '0.99%', 'Stop': '10.22%', 'Vorfahrt': '85.32%', 'VofahrtGewaehren': '0.09%'}]
+[{'Achtung': '0.16%', 'Fuenfzig': '4.20%', 'Hundert': '25.21%', 'Stop': '2.67%', 'Vorfahrt': '67.61%', 'VofahrtGewaehren': '0.15%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '0.08%', 'Hundert': '99.92%', 'Stop': '0.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '0.00%'}]
+[{'Achtung': '0.01%', 'Fuenfzig': '0.62%', 'Hundert': '0.00%', 'Stop': '16.72%', 'Vorfahrt': '76.52%', 'VofahrtGewaehren': '6.12%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '0.00%', 'Hundert': '0.00%', 'Stop': '0.00%', 'Vorfahrt': '100.00%', 'VofahrtGewaehren': '0.00%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '0.00%', 'Hundert': '0.00%', 'Stop': '0.00%', 'Vorfahrt': '0.00%', 'VofahrtGewaehren': '100.00%'}]
+
+###############################
+
+/home/pi/ki-project/my_virtual_env/lib/python3.11/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+
+/home/pi/ki-project/my_virtual_env/lib/python3.11/site-packages/keras/src/trainers/epoch_iterator.py:107: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self._interrupted_warning()
