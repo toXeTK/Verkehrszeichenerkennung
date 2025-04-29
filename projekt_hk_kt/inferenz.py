@@ -2,9 +2,11 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
- 
+
+chptfile = 38
+
 # Lade das trainierte Modell
-MODEL_PATH = "/home/pi/Documents/Verkehrszeichenerkennung/projekt_hk_kt/chpt/19/19-chpt.model.keras" 
+MODEL_PATH = '/home/pi/Documents/Verkehrszeichenerkennung/projekt_hk_kt/chpt/' + f'{chptfile}/' +  f'{chptfile}-chpt.model.keras' 
 model = load_model(MODEL_PATH)
  
 print("imputshape:" ,model.input_shape)
@@ -28,8 +30,8 @@ while True:
         break
     # Preprocessing: Bild in richtige Größe umwandeln
     image = cv2.resize(frame, IMG_SIZE)
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # convert to grayscale
-    image = image / 255 # image normalization
+    #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # convert to grayscale
+    image = image.astype('float32') / 255.0 # image normalization
     #image = image.flatten()
     image = np.expand_dims(image, axis=0)  
  
