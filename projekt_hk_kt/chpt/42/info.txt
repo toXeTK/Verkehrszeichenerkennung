@@ -25,6 +25,8 @@ Test1: Achtung, Test2: Fuenfzig, Test3: Hundert, Test4: Stop, Test5: Vorfahrt, T
 
 ###############################
 
+2025-04-28 19:32:36.679214: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 341612544 exceeds 10% of free system memory.
+
 /home/pi/ki-project/my_virtual_env/lib/python3.11/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
   self._warn_if_super_not_called()
 
