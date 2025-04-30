@@ -13,7 +13,7 @@ print("imputshape:" ,model.input_shape)
  
  
 # Definiere Bildparameter
-IMG_SIZE = (64,56)
+IMG_SIZE = (64,64)
  
 # Starte die USB-Kamera
 cap = cv2.VideoCapture(0)
