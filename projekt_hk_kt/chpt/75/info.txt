@@ -1,0 +1,26 @@
+############ SPECS ############
+
+IMG Resolution: [64, 64]
+Neurons per Layer: [256, 6]
+Batch Size: 64
+Epochs: 30
+
+
+########### HISTORY ###########
+
+Test score: 0.002851048717275262
+Test accuracy: 0.9994964599609375
+
+
+########### TESTING ###########
+
+Test1: Achtung, Test2: Fuenfzig, Test3: Hundert, Test4: Stop, Test5: Vorfahrt, Test6: VorfahrtGewaehren
+
+[{'Achtung': '8.03%', 'Fuenfzig': '0.99%', 'Hundert': '0.51%', 'Stop': '0.65%', 'Vorfahrt': '44.35%', 'VofahrtGewaehren': '45.47%'}]
+[{'Achtung': '0.02%', 'Fuenfzig': '98.62%', 'Hundert': '0.35%', 'Stop': '0.01%', 'Vorfahrt': '0.99%', 'VofahrtGewaehren': '0.00%'}]
+[{'Achtung': '0.01%', 'Fuenfzig': '1.86%', 'Hundert': '98.05%', 'Stop': '0.03%', 'Vorfahrt': '0.03%', 'VofahrtGewaehren': '0.02%'}]
+[{'Achtung': '8.85%', 'Fuenfzig': '0.23%', 'Hundert': '1.08%', 'Stop': '77.12%', 'Vorfahrt': '8.64%', 'VofahrtGewaehren': '4.08%'}]
+[{'Achtung': '0.00%', 'Fuenfzig': '0.00%', 'Hundert': '0.00%', 'Stop': '0.01%', 'Vorfahrt': '99.99%', 'VofahrtGewaehren': '0.01%'}]
+[{'Achtung': '1.81%', 'Fuenfzig': '0.02%', 'Hundert': '0.04%', 'Stop': '0.57%', 'Vorfahrt': '3.36%', 'VofahrtGewaehren': '94.20%'}]
+
+###############################
